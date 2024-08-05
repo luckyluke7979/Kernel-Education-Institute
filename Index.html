@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Kernel Education Institute </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a
+                href="index.html"><img src="images/logo.png">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>      
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">KEM</a></li>
+                    <li><a href="">KEO</a></li>
+                    <li><a href="">COCA</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>
+                Best Education Institute
+            </h1>
+            <p>
+                We provide educational service with the best quality <br> best facilities
+            </p>
+            <a href="" class="hero-btn">
+                Visit us to know more
+            </a>
+        </div>
+    </section>
+    <section class="Course">
+        <h1>
+            Courses We Offer
+        </h1>
+        <p>
+            Chinese for everyone
+        </p>
+        <div class="row">
+            <div class="Course-col">
+                <h3>
+                    Beginner
+                </h3>
+                <p>
+                    The beginer can study some basic knowledge
+                </p>
+            </div>
+            <div class="Course-col">
+                <h3>
+                    Intermediate
+                </h3>
+                <p>
+                    The intermediate can study some advance knowledge
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="Campus">
+        <h1>
+            Our Global Campus
+        </h1>
+        <p>
+            Campus is everywhere
+        </p>
+        <div class="row">
+            <div class="Campus-col">
+                <img src="images/TanAn.jpg">
+                <div class="layer">
+                    <h3>
+                        TANAN
+                    </h3>
+                </div>
+            </div>
+            <div class="Campus-col">
+                <img src="images/Lotus.png">
+                <div class="layer">
+                    <h3>
+                        LOTUS
+                    </h3>
+                </div>
+            </div>
+            <div class="Campus-col">
+                <img src="images/earth.jpg">
+                <div class="layer">
+                    <h3>
+                        EARTH
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Facility">
+        <h1>
+            Facility
+        </h1>
+        <p>
+            Our facilities are the best in the world
+        </p>
+        <div class="row">
+            <div class="Facility-col">
+                <img src="images/book.jpg">
+                <h3>
+                    BOOK
+                </h3>
+                <p>
+                    Different kinds of book such as
+                </p>
+            </div>
+            <div class="Facility-col">
+                <img src="images/computer.png">
+                <h3>
+                    COMPUTER
+                </h3>
+                <p>
+                    Many computer for study such as
+                </p>
+            </div>
+            <div class="Facility-col">
+                <img src="images/sport.jpg">
+                <h3>
+                    SPORT
+                </h3>
+                <p>
+                    We provide many knids of sports such as
+                </p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>
+            Enroll for our class<br>Any campus
+        </h1>
+        <a href="" class="hero-btn">
+            CONTACT US
+        </a>
+    </section>
+    <section class="footer">
+        <h4>
+            About Us
+        </h4>
+        <p>
+            We always serve our customer as a best quality
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+        <p>
+            Made by CEO DTN
+        </p>
+    </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
